@@ -1,0 +1,33 @@
+﻿body{
+	text-align: center;
+}
+#control{
+	display: inline-block;
+}
+#preControl{
+	width: 344px;
+	display: inline-block;
+}
+#preControl button{
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+
+#svg{
+	margin-top: 30px;
+}
+#speedControl{
+	margin-left: 50px;
+}
+#speedControl button{
+	font-size: 14px;
+}
+#speedLine{
+	background: url('../speedline.jpg');
+	background-position: 100% 0%;
+	border: 1px solid gray;
+	width: 150px;
+	height: 10px;
+	display: inline-block;
+}

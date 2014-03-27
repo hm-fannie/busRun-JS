@@ -1,0 +1,49 @@
+<!--
+  --file : index.html 
+  --version : 1.0
+  --Author: Huang Min
+       from Sun Yat-sen University, Schools of Software Software engineering
+    mail: huangm.ss.sysu@gmail.com
+!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bus Run</title>
+
+  <!-- loading bus.css -->
+  <link href="css/busRun.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bus Run</h1>
+    <div id="control">
+      <span id="preControl">
+      <button id="start">开始</button>
+      <button id="stop" >结束</button>
+      <button id="resume" >继续</button>
+      <button id="pause" >暂停</button>
+      
+    </span>
+      <span id="speedControl">
+        
+        <button id="speedDown">减速</button>
+        <div id="speedLine"></div>
+        <button id="speedUp">加速</button>
+      </span>
+    </div>
+    <!-- An container to put thegraph in -->
+    <div id="svg">
+    </div>
+  </div>
+
+  <!-- Load JS here for greater good =============================-->
+  <script src="js/raphael-min.js"></script>
+  <script src="js/busRun.js"></script>
+  <script type="text/javascript">
+  </script>
+</body>
+</html>
